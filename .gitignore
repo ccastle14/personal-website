@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/apps/personal/node_modules
+/apps/portfolio/node_modules
 /.pnp
 .pnp.js
 
