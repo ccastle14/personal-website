@@ -11,7 +11,7 @@ export default function ChillinOutPage() {
                 style={{ backgroundImage: "url('/fun/turtwig.png')" }}
             >
                 <h1 className="text-4xl font-bold">Chillin' Out</h1>
-                <p className="mt-4 text-lg">This is the standalone fun page.</p>
+                <p className="mt-4 text-lg">We out here.</p>
             </main>
         </body>
     </html>
