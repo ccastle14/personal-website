@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/ccassell/Desktop/Fun%20Misc./Coding/personal-website/apps/personal/app/page.tsx"],"sourcesContent":["export const metadata = {\n  title: 'Coolin\\' with Colin',\n};\n\nexport default function ChillinOutPage() {\n  return (\n    <html lang=\"en\">\n        <body className={`antialiased bg-white dark:bg-black text-black dark:text-white`}>\n            <main\n                className=\"flex flex-col items-center justify-center min-h-screen py-2 bg-repeat\"\n                style={{ backgroundImage: \"url('/fun/turtwig.png')\" }}\n            >\n                <h1 className=\"text-4xl font-bold\">Chillin' Out</h1>\n                <p className=\"mt-4 text-lg\">This is the standalone fun page.</p>\n            </main>\n        </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;AAAO,MAAM,WAAW;IACtB,OAAO;AACT;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAK,MAAK;kBACP,cAAA,8OAAC;YAAK,WAAW,CAAC,6DAA6D,CAAC;sBAC5E,cAAA,8OAAC;gBACG,WAAU;gBACV,OAAO;oBAAE,iBAAiB;gBAA0B;;kCAEpD,8OAAC;wBAAG,WAAU;kCAAqB;;;;;;kCACnC,8OAAC;wBAAE,WAAU;kCAAe;;;;;;;;;;;;;;;;;;;;;;AAK5C"}}]
+}

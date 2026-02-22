@@ -7,7 +7,7 @@ This is the code for my portfolio website built with Next.js, Tailwind CSS, and 
 ### Quick Start
 
 ```bash
-npx next dev
+npm run dev:portfolio
 # then open http://localhost:3000
 ```
 

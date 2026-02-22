@@ -2,11 +2,16 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "dev:portfolio": "cd apps/portfolio && npm run dev",
+    "dev:personal": "cd apps/personal && npm run dev"
   },
   "dependencies": {
     "next": "16.1.6",
