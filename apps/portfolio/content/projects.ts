@@ -36,7 +36,7 @@ export const projects: Project[] = [
     challenges:
       "Ensuring auth would consistently work for months without manual intervention was tricky. I had to implement token refreshing and robust error handling to avoid the display breaking when tokens expired.",
     links: {
-      // github: "https://github.com/ccastle14/pi-birthday-display",
+      github: "https://github.com/ccastle14/birthday-pi/",
       // video: "https://youtube.com/...",
     },
   },
@@ -56,8 +56,8 @@ export const projects: Project[] = [
       "Two 555 timer oscillators with frequency modulation, carefully tuned carrier and modulator frequencies. Envelope shaping for realistic note behavior.",
     challenges:
       "This project is what finally got me to break down and buy a multimeter for real electronic debugging.",
-    links: {
+    // links: {
       // demo: "https://youtube.com/...",
-    },
+    // },
   },
 ];

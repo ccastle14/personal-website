@@ -12,6 +12,8 @@
 
 # next.js
 /.next/
+/apps/portfolio/.next/
+/apps/personal/.next/
 /out/
 
 # production
