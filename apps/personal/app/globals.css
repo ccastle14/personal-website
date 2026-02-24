@@ -1,0 +1,57 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+:root {
+  --theme-primary:   #c1c786;
+  --theme-secondary: #f8de49;
+  --theme-accent:    #719e50;
+  --theme-accent-dark: #516b3b;
+  --theme-bg:        #dbab2b;
+}
+
+html, body {
+  height: 100%;
+}
+
+.bg-personal {
+  background-repeat: repeat;
+}
+
+.background {
+  height: 70vh;
+  width: 70vw;
+  background-color: var(--theme-bg);
+}
+
+@keyframes wobble {
+  0%,100% { transform: rotate(0) skew(0); }
+  25%      { transform: rotate(4deg) skew(4deg); }
+  50%      { transform: rotate(-4deg) skew(-4deg); }
+  75%      { transform: rotate(3deg) skew(3deg); }
+}
+
+@keyframes pulse {
+  from { letter-spacing: 0.05em; }
+  to   { letter-spacing: 0.1em; }
+}
+
+.retro-title {
+  font-size: 5rem;
+  color: var(--theme-primary);
+  text-shadow:
+    2px  2px 0 var(--theme-accent),
+   -2px -2px 0 var(--theme-secondary),
+   4px 4px 0 var(--theme-accent-dark);
+  animation: wobble 1s infinite;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.retro-paragraph {
+  font-size: 1.5rem;
+  color: var(--theme-accent-dark);
+  animation: pulse 2s infinite alternate;
+  letter-spacing: .1em;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-left: 1rem;
+}
