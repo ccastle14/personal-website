@@ -13,6 +13,12 @@ html, body {
   height: 100%;
 }
 
+.text-background {
+  background-color: var(--theme-secondary);
+  color: var(--theme-accent-dark);
+  border-radius: 0.25rem;
+}
+
 .bg-personal {
   background-repeat: repeat;
 }
@@ -35,6 +41,32 @@ html, body {
   to   { letter-spacing: 0.1em; }
 }
 
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 .retro-title {
   font-size: 5rem;
   color: var(--theme-primary);
@@ -54,4 +86,8 @@ html, body {
   letter-spacing: .1em;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   margin-left: 1rem;
+}
+
+.fading {
+  animation: fadeInOut 10s linear infinite;
 }

@@ -8,14 +8,16 @@ export default function ChillinOutPage() {
       className="flex flex-col items-center justify-center min-h-screen py-2 bg-personal"
       style={{ backgroundImage: "url('/fun/turtwig.png')", backgroundSize: "150px auto", height: "100vh" }}
     >
-      <div className="flex flex-row  gap-8">
-        <div>
+      <div className="flex flex-row">
+        <div className="fading">
           <img
             src="fun/the-noid.png"
             className="max-w-[50px] h-auto"
-            alt="it is the noid."
+            alt="It is the noid."
           />
-          RESPECT THE NOID
+          <div className="text-background">
+            <p>RESPECT THE NOID</p>
+          </div>
         </div>
         <div className="background flex flex-col">
           <h1 className="retro-title">Welcome to Turtwig Town</h1>
