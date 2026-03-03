@@ -27,6 +27,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-black text-black dark:text-white`}
       >
+        <a
+          href="/wip"
+          style={{
+            position: 'absolute',
+            left: '-9999px',
+            width: '1px',
+            height: '1px',
+          }}
+        >
+          .
+        </a>
         {/* hide navigation when serving the standalone personal page */}
         <nav className="border-b border-zinc-200 dark:border-zinc-800">
           <div className="max-w-3xl mx-auto px-6 py-6 flex items-center justify-between">
